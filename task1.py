@@ -3,7 +3,7 @@ print(f'Total number pf slices: {slices}')
 
 people += 1
 share = slices // people
-leftover = share % people
+leftover = slices % people
 print(f'Each person gets: {share}')
 print(f'Leftover slices: {leftover}')
 
@@ -17,7 +17,7 @@ print(f'Leftover slices: {leftover}')
 
 slices += party_pizza_mini
 share = slices // people
-leftover = share % people
+leftover = slices % people
 print(f'Each person gets: {share}')
 print(f'Leftover slices: {leftover}')
 print("...for Mr. Hollow Leg")
